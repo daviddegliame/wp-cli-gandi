@@ -10,3 +10,4 @@ Il est néanmoins possible d'utiliser la commande 'php wp-cli.phar' à la place.
 Ce script à pour objectif de permettre d'utiliser directement la commande 'wp' utilisé par défaut dans tous les exemples officiels et dans la majorités des scripts tiers déjà dévelloppé.
 De plus il sera egalement possible d'utiliser l'auto-complétion nativement dans la console.
 
+Ce projet est toujours perfectible, toutes contributions est bienvenue.
