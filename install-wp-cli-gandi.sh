@@ -2,7 +2,7 @@
 #
 # verifie et/ou installe WP-CLI sur une instance Simple Hosting de chez Gandi.net 
 # 
-# Version 0.3
+# Version 0.4
 #
 #
 #
@@ -94,7 +94,7 @@ echo 'source /home/hosting-user/wp-cli/wp-completion.bash' >> ~/.profile_wp-cli
 
 echo 'source ~/.profile_wp-cli' >> /srv/data/etc/bash/bashrc 
 cd $HOME
-source .profile
+source /srv/data/etc/bash/bashrc 
 
 bot "voici ce que j'ai à propos de wp-cli :"
 wp cli info
